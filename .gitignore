@@ -1,0 +1,43 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Ignore environment-specific files
+wp-config.php
+wp-config-local.php
+
+# Ignore various configuration files
+.htaccess
+*.log
+*.sql
+*.sqlite
+
+# Ignore Node.js related files (if using npm)
+node_modules/
+package-lock.json
+
+# Ignore Composer related files (if using Composer)
+vendor/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
+
+# Ignore user-specific files
+*.bak
+*.swp
+*~
